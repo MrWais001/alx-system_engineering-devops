@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 //prints local,env and func
+=======
+set
+>>>>>>> cab0fb5e24da65a8a8ee4f3e16a68f98aca89886
