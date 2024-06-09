@@ -1,4 +1,12 @@
 #!/usr/bin/env bash
-# Start Apache so as to return a
-# page conatining Hello Holberton
+# This script fixes the Apache configuration in the Docker container
+
+# Start Apache service
 service apache2 start
+
+# Ensure the index.html file exists with the correct content
+echo "Hello Holberton" > /var/www/html/index.html
+
+# Restart Apache to apply changes
+service apache2 restart
+
